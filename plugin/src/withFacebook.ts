@@ -1,3 +1,5 @@
+import {ConfigPlugin, createRunOncePlugin} from '@expo/config-plugins';
+import {ExpoConfig} from '@expo/config-types';
 import {ConfigProps, getMergePropsWithConfig} from './config';
 import {
   withAndroidPermissions,
@@ -6,11 +8,9 @@ import {
 } from './withFacebookAndroid';
 import {withFacebookIOS, withUserTrackingPermission} from './withFacebookIOS';
 import {withSKAdNetworkIdentifiers} from './withSKAdNetworkIdentifiers';
-import {ExpoConfig} from '@expo/config-types';
-import {ConfigPlugin, createRunOncePlugin} from '@expo/config-plugins';
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const pkg = require('react-native-fbsdk-next/package.json');
+const pkg = require('@holy/react-native-fbsdk-next/package.json');
 
 function getExpoFacebookConfig(config: ExpoConfig) {
   const facebookPlugin = config.plugins?.find((plugin) => {
