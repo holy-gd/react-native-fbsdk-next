@@ -10,7 +10,7 @@ import {withFacebookIOS, withUserTrackingPermission} from './withFacebookIOS';
 import {withSKAdNetworkIdentifiers} from './withSKAdNetworkIdentifiers';
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const pkg = require('@holy/react-native-fbsdk-next/package.json');
+const pkg = require('@holy-gd/react-native-fbsdk-next/package.json');
 
 function getExpoFacebookConfig(config: ExpoConfig) {
   const facebookPlugin = config.plugins?.find((plugin) => {
