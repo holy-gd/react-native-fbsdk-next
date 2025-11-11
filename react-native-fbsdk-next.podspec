@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.version       = package['version']
   s.summary       = package['description']
   s.requires_arc  = true
-  s.author        = { 'holy-gd' => 'developers@holy.gd' }
+  s.author        = { 'holy-gd' => 'ronak@holy.gd' }
   s.license       = package['license']
   s.homepage      = package['homepage']
   s.source        = { :git => 'https://github.com/holy-gd/react-native-fbsdk-next.git', :tag => "v#{package['version']}" }
