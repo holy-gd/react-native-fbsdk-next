@@ -1,6 +1,6 @@
 {
   "name": "@holy-gd/react-native-fbsdk-next",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Facebook SDK support for React Native apps. (Custom build with Expo fixes)",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
