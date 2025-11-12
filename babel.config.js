@@ -5,7 +5,7 @@ module.exports = {
       'module-resolver',
       {
         alias: {
-          'react-native-fbsdk-next': './src',
+          '@holy-gd/react-native-fbsdk-next': './src',
         },
       },
     ],
